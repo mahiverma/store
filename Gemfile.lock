@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/spree/spree.git
-  revision: 3c2015e5b8df36b08188978f78443e3c385548bb
+  revision: d448ea6fb4a7ccd822a50f294b84082f751ce86a
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -51,6 +51,28 @@ GIT
       devise-encryptable (= 0.1.1)
       spree_core
 
+GIT
+  remote: git://github.com/spree/spree_reviews.git
+  revision: 2ca1ef2fc1566b75e1c8802c7d7e357617232492
+  specs:
+    spree_reviews (1.0.0)
+      spree_core (~> 2.0.0.beta)
+
+GIT
+  remote: git@github.com:spree/spree_analytics.git
+  revision: 079949fd0e6d9ec87eefd8e3b9c70b5aa3bf25d3
+  specs:
+    spree_analytics (0.1.0)
+      spree_core (>= 1.0.0.rc1)
+
+GIT
+  remote: git@github.com:spree/spree_comments.git
+  revision: 91cd4c22fcecb177c1360e4a07e98665bc223612
+  specs:
+    spree_comments (1.0.1)
+      acts_as_commentable (= 3.0.1)
+      spree_core (>= 0.70.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -92,6 +114,7 @@ GEM
     activesupport (3.2.11)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    acts_as_commentable (3.0.1)
     acts_as_list (0.1.4)
     arel (3.0.2)
     awesome_nested_set (2.1.5)
@@ -118,7 +141,7 @@ GEM
     deface (0.9.1)
       nokogiri (~> 1.5.0)
       rails (~> 3.1)
-    devise (2.2.2)
+    devise (2.2.3)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
       railties (~> 3.1)
@@ -162,6 +185,7 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
+    pg (0.14.1)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -241,10 +265,14 @@ DEPENDENCIES
   devise-encryptable
   execjs
   jquery-rails
+  pg
   rails (= 3.2.11)
   sass-rails (~> 3.2.3)
   spree!
+  spree_analytics!
   spree_auth_devise!
+  spree_comments!
+  spree_reviews!
   sqlite3
   therubyracer
   uglifier (>= 1.0.3)
