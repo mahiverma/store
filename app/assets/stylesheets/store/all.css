@@ -11,4 +11,5 @@
  *= require_tree .
  *= require store/spree_reviews
  *= require store/spree_analytics
+ *= require store/spree_social
 */

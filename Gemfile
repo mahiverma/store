@@ -6,7 +6,7 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'spree_analytics', :git => "git@github.com:spree/spree_analytics.git"
+gem 'spree_analytics', :git => "git://github.com/spree/spree_analytics.git"
 gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
 
 # Gems used only for assets and not required
@@ -25,11 +25,12 @@ group :production do
 end
 gem 'jquery-rails'
 gem 'execjs',  :platforms => :ruby
-gem 'therubyracer', :platforms => :ruby
+gem 'therubyracer', '0.10.2', :platforms => :ruby
 gem 'spree', :git => 'git://github.com/spree/spree.git'
 gem 'devise-encryptable'
 gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git'
-gem "spree_comments",:git => 'git@github.com:spree/spree_comments.git'
+gem "spree_comments",:git => 'git://github.com/spree/spree_comments.git'
+gem "spree_social", :git => "git://github.com/spree/spree_social.git"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
