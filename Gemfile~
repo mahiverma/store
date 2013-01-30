@@ -30,6 +30,7 @@ gem 'spree', :git => 'git://github.com/spree/spree.git'
 gem 'devise-encryptable'
 gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git'
 gem "spree_comments",:git => 'git://github.com/spree/spree_comments.git'
+gem "spree_social", :git => "git://github.com/spree/spree_social.git"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

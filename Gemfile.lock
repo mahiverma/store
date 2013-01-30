@@ -59,6 +59,13 @@ GIT
       spree_core
 
 GIT
+  remote: git://github.com/spree/spree_blue_sass_theme.git
+  revision: f813dbdb4e80f603e44cf42366a68cbe8ea2d756
+  specs:
+    spree_blue_theme (0.2.0)
+      sass-rails
+
+GIT
   remote: git://github.com/spree/spree_comments.git
   revision: 91cd4c22fcecb177c1360e4a07e98665bc223612
   specs:
@@ -317,6 +324,7 @@ DEPENDENCIES
   spree!
   spree_analytics!
   spree_auth_devise!
+  spree_blue_theme!
   spree_comments!
   spree_reviews!
   spree_social!
