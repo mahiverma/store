@@ -50,11 +50,11 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_auth_devise
-  revision: df2b887b2775fd0ab48ff80c2922c22132aa9fa7
+  revision: aaf966db5394d2bcd8d492b8a8267b44061238c6
   specs:
     spree_auth_devise (1.0.0)
       cancan (~> 1.6.7)
-      devise (~> 2.2.2)
+      devise (~> 2.2.3)
       devise-encryptable (= 0.1.1)
       spree_core
 
