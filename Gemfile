@@ -19,6 +19,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'devise'
 end
 group :production do
   gem 'pg'
@@ -48,4 +49,4 @@ gem "spree_social", :git => "git://github.com/spree/spree_social.git"
 
 # To use debugger
 # gem 'debugger'
-gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_sass_theme.git'
+#gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_sass_theme.git'
