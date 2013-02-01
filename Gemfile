@@ -5,7 +5,7 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-
+gem 'thin'
 gem 'spree_analytics', :git => "git://github.com/spree/spree_analytics.git"
 gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
 
